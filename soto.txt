@@ -1,1 +1,122 @@
 it is my first project
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tu
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1
+$ git init
+Initialized empty Git repository in C:/Users/patow/Desktop/git tutorials/tut1/.git/
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        soto.txt
+        vbb.xls
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git add --a
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   soto.txt
+        new file:   vbb.xls
+
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git commit -m "Initial Commit"
+[master (root-commit) 2c763dd] Initial Commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 soto.txt
+ create mode 100644 vbb.xls
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git log
+commit 2c763dd13ce9b7a4107c6e7431267a8d980a1736 (HEAD -> master)
+Author: satabda <saptapdahazarika111@gmail.com>
+Date:   Fri Jun 3 11:04:14 2022 +0530
+
+    Initial Commit
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   soto.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   soto.txt
+        modified:   vbb.xls
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git add soto.txt
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   soto.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   vbb.xls
+
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git commit -m "changed soto.txt and updated"
+[master 958e1d2] changed soto.txt and updated
+ 1 file changed, 1 insertion(+)
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   vbb.xls
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tutorials/tut1 (master)
+$
+
