@@ -1,4 +1,4 @@
-it is my first project version 1
+it is my first project version 2
 
 satabda@DESKTOP-KTOIQ8A MINGW64 ~/Desktop/git tu
 $ git status
